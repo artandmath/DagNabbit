@@ -128,7 +128,7 @@ def execute() -> None:
 	if not dag:
 		raise RuntimeError("Couldn't get DAG widget")
 			
-	# Force nuke into a oversized DAG, ready to capture
+	# Capture Dag
 	captureDag = CaptureDag(dag, bbox=dagBBox(), path=path, margins=margins,delay=delay)
 	captureDag.run()
 	
