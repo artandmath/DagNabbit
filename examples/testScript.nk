@@ -1,0 +1,1108 @@
+#! /usr/local/Nuke13.2v9/libnuke-13.2.9.so -nx
+version 13.2 v9
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="523" y="0" w="811" h="744" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="390" stretch="1"/>
+            <splitter orientation="2">
+                <split size="705"/>
+                <dock id="" activePageId="DAG.1" focus="true">
+                    <page id="DAG.1"/>
+                </dock>
+            </splitter>
+            <split size="373"/>
+            <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                <page id="uk.co.thefoundry.scripteditor.2"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name /home/administrator/Documents/testScript.nk
+ mapsize {0.148255814 0.2101010101}
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ monitorOutLUT rec709
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode1
+ tile_color 0x388e8e00
+ note_font_size 42
+ xpos -21189
+ ypos -17699
+ bdwidth 597
+ bdheight 683
+}
+Grade {
+ inputs 0
+ name Grade20
+ xpos -18660
+ ypos -14267
+}
+Grade {
+ name Grade21
+ xpos -18660
+ ypos -14241
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect52
+ xpos -17620
+ ypos -13901
+}
+ColorCorrect {
+ name ColorCorrect53
+ xpos -17620
+ ypos -13875
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect55
+ xpos -17838
+ ypos -13711
+}
+Dot {
+ inputs 0
+ name Dot13
+ xpos -23501
+ ypos -13161
+}
+set N7acde50 [stack 0]
+Grade {
+ name Grade146
+ xpos -21871
+ ypos -11551
+}
+push $N7acde50
+Grade {
+ name Grade147
+ xpos -21963
+ ypos -11732
+}
+Group {
+ inputs 0
+ name Group13
+ xpos -20834
+ ypos -16377
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos 0
+ }
+ Output {
+  name Output1
+  xpos 0
+  ypos 300
+ }
+end_group
+Grade {
+ inputs 0
+ name Grade150
+ xpos -21021
+ ypos -17515
+}
+Grade {
+ inputs 0
+ name Grade151
+ xpos -20718
+ ypos -14051
+}
+Grade {
+ inputs 0
+ name Grade152
+ xpos -20732
+ ypos -14228
+}
+Grade {
+ name Grade153
+ xpos -20732
+ ypos -14202
+}
+Grade {
+ inputs 0
+ name Grade154
+ xpos -20827
+ ypos -15909
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect61
+ xpos -20383
+ ypos -15495
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect62
+ xpos -20662
+ ypos -15440
+}
+ColorCorrect {
+ name ColorCorrect63
+ xpos -20662
+ ypos -15414
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect64
+ xpos -20410
+ ypos -15073
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect65
+ xpos -20880
+ ypos -15250
+}
+CheckerBoard2 {
+ inputs 0
+ name CheckerBoard13
+ xpos -20825
+ ypos -17395
+}
+Grade {
+ name Grade156
+ xpos -20825
+ ypos -17310
+}
+AdjBBox {
+ numpixels 582
+ name AdjBBox13
+ xpos -20825
+ ypos -17236
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect54
+ xpos -17368
+ ypos -13534
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect51
+ xpos -17302
+ ypos -13956
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect4
+ xpos -17229
+ ypos -13253
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect14
+ xpos -17402
+ ypos -14083
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect17
+ xpos -17455
+ ypos -13752
+}
+ColorCorrect {
+ name ColorCorrect18
+ xpos -17455
+ ypos -13726
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect19
+ xpos -17673
+ ypos -13562
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect21
+ xpos -17658
+ ypos -13518
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect22
+ xpos -17937
+ ypos -13463
+}
+ColorCorrect {
+ name ColorCorrect23
+ xpos -17937
+ ypos -13437
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect27
+ xpos -19476
+ ypos -13013
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect26
+ xpos -19197
+ ypos -13068
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect29
+ xpos -19694
+ ypos -12823
+}
+Copy {
+ inputs 2
+ from0 rgba.alpha
+ to0 rgba.alpha
+ name Copy1
+ xpos -19197
+ ypos -12823
+}
+set N88102e0 [stack 0]
+ColorCorrect {
+ name ColorCorrect28
+ xpos -19476
+ ypos -12987
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect30
+ xpos -17917
+ ypos -14157
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect31
+ xpos -17426
+ ypos -13981
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect34
+ xpos -17923
+ ypos -13736
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect35
+ xpos -17453
+ ypos -13559
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect37
+ xpos -17353
+ ypos -14192
+}
+ColorCorrect {
+ name ColorCorrect38
+ xpos -17353
+ ypos -14166
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect39
+ xpos -17571
+ ypos -14002
+}
+Scene {
+ inputs 0
+ name Scene9
+ xpos -18713
+ ypos -15233
+}
+Scene {
+ inputs 0
+ name Scene19
+ xpos -18848
+ ypos -15079
+}
+Scene {
+ inputs 0
+ name Scene10
+ xpos -18675
+ ypos -15060
+}
+Scene {
+ name Scene11
+ xpos -18675
+ ypos -14994
+}
+Scene {
+ name Scene12
+ xpos -18785
+ ypos -14994
+}
+Scene {
+ name Scene13
+ xpos -18675
+ ypos -14862
+}
+Scene {
+ name Scene14
+ xpos -18846
+ ypos -15002
+}
+Grade {
+ inputs 0
+ name Grade1
+ xpos -19045
+ ypos -15023
+}
+Scene {
+ inputs 0
+ name Scene20
+ xpos -18831
+ ypos -15147
+}
+Scene {
+ inputs 0
+ name Scene15
+ xpos -18482
+ ypos -15098
+}
+Scene {
+ name Scene16
+ xpos -18482
+ ypos -15032
+}
+Scene {
+ name Scene17
+ xpos -18639
+ ypos -14993
+}
+Scene {
+ name Scene18
+ xpos -18482
+ ypos -14900
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant2
+ xpos -22689
+ ypos -18518
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant4
+ xpos -21898
+ ypos -18519
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant5
+ xpos -23042
+ ypos -18250
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant6
+ xpos -22689
+ ypos -18250
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant7
+ xpos -22287
+ ypos -18250
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant8
+ xpos -21898
+ ypos -18251
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant9
+ xpos -23041
+ ypos -17946
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant13
+ xpos -23041
+ ypos -17655
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant14
+ xpos -22688
+ ypos -17655
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant15
+ xpos -22286
+ ypos -17655
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant16
+ xpos -21897
+ ypos -17656
+}
+Grade {
+ inputs 0
+ name Grade155
+ xpos -21008
+ ypos -17416
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant17
+ xpos -17579
+ ypos -12716
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant18
+ xpos -17226
+ ypos -12716
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant19
+ xpos -16824
+ ypos -12716
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant21
+ xpos -17579
+ ypos -12448
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant22
+ xpos -17226
+ ypos -12448
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant23
+ xpos -16824
+ ypos -12448
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant24
+ xpos -16435
+ ypos -12449
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant25
+ xpos -17578
+ ypos -12144
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant26
+ xpos -17225
+ ypos -12144
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant27
+ xpos -16823
+ ypos -12144
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant29
+ xpos -17578
+ ypos -11853
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant30
+ xpos -17225
+ ypos -11853
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant32
+ xpos -16434
+ ypos -11854
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect1
+ xpos -18402
+ ypos -16543
+}
+ColorCorrect {
+ name ColorCorrect2
+ xpos -18402
+ ypos -16517
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect3
+ xpos -18620
+ ypos -16353
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect5
+ xpos -18150
+ ypos -16176
+}
+set C8b25b30 [stack 0]
+ColorCorrect {
+ inputs 0
+ name ColorCorrect6
+ xpos -18084
+ ypos -16598
+}
+set C8b3ed90 [stack 0]
+ColorCorrect {
+ inputs 0
+ name ColorCorrect7
+ xpos -18011
+ ypos -15895
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect8
+ xpos -18184
+ ypos -16725
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect9
+ xpos -18237
+ ypos -16394
+}
+set C8b8a4b0 [stack 0]
+ColorCorrect {
+ name ColorCorrect10
+ xpos -18237
+ ypos -16368
+}
+set C8ba3710 [stack 0]
+ColorCorrect {
+ inputs 0
+ name ColorCorrect11
+ xpos -18455
+ ypos -16204
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect12
+ xpos -18440
+ ypos -16160
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect13
+ xpos -18719
+ ypos -16105
+}
+ColorCorrect {
+ name ColorCorrect15
+ xpos -18719
+ ypos -16079
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect16
+ xpos -18937
+ ypos -15915
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect20
+ xpos -18672
+ ypos -17221
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect25
+ xpos -18951
+ ypos -17166
+}
+ColorCorrect {
+ name ColorCorrect36
+ xpos -18951
+ ypos -17140
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect40
+ xpos -19169
+ ypos -16976
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect41
+ xpos -18699
+ ypos -16799
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect42
+ xpos -18208
+ ypos -16623
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect43
+ xpos -18487
+ ypos -16568
+}
+ColorCorrect {
+ name ColorCorrect44
+ xpos -18487
+ ypos -16542
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect45
+ xpos -18705
+ ypos -16378
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect46
+ xpos -18235
+ ypos -16201
+}
+set C8d1de90 [stack 0]
+ColorCorrect {
+ inputs 0
+ name ColorCorrect47
+ xpos -18135
+ ypos -16834
+}
+set N8d370f0 [stack 0]
+ColorCorrect {
+ name ColorCorrect48
+ xpos -18135
+ ypos -16808
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect49
+ xpos -18353
+ ypos -16644
+}
+push $N7acde50
+Grade {
+ name Grade145
+ xpos -21746
+ ypos -11818
+}
+push $N7acde50
+Grade {
+ name Grade148
+ xpos -23535
+ ypos -17413
+}
+push $N8d370f0
+NoOp {
+ name NoOp2
+ xpos -19774
+ ypos -13255
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant3
+ xpos -22287
+ ypos -18518
+}
+NoOp {
+ name NoOp3
+ xpos -22976
+ ypos -11540
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant12
+ xpos -21897
+ ypos -17947
+}
+NoOp {
+ name NoOp6
+ xpos -19760
+ ypos -14246
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant28
+ xpos -16434
+ ypos -12145
+}
+set N8dc5370 [stack 0]
+NoOp {
+ name NoOp7
+ xpos -20931
+ ypos -13521
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant11
+ xpos -22286
+ ypos -17946
+}
+Transform {
+ center {1024 778}
+ name Transform1
+ xpos -22286
+ ypos -17874
+}
+set N8ddca70 [stack 0]
+NoOp {
+ name NoOp8
+ xpos -20027
+ ypos -17128
+ hide_input true
+}
+push $N8ddca70
+NoOp {
+ name NoOp11
+ xpos -19468
+ ypos -15668
+ hide_input true
+}
+push $N8ddca70
+NoOp {
+ name NoOp12
+ xpos -17704
+ ypos -12239
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant10
+ xpos -22688
+ ypos -17946
+}
+NoOp {
+ name NoOp13
+ xpos -17551
+ ypos -17776
+ hide_input true
+}
+Grade {
+ inputs 0
+ name Grade19
+ xpos -18646
+ ypos -14090
+}
+NoOp {
+ name NoOp14
+ xpos -21223
+ ypos -12048
+ hide_input true
+}
+push $N88102e0
+NoOp {
+ name NoOp1
+ xpos -19897
+ ypos -17982
+ hide_input true
+}
+NoOp {
+ name NoOp15
+ xpos -20460
+ ypos -13763
+ hide_input true
+}
+push $N8dc5370
+NoOp {
+ name NoOp16
+ xpos -21769
+ ypos -17001
+ hide_input true
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect24
+ xpos -18155
+ ypos -13273
+}
+NoOp {
+ name NoOp5
+ xpos -19558
+ ypos -11820
+ hide_input true
+}
+push $N7acde50
+NoOp {
+ name NoOp17
+ xpos -16928
+ ypos -15147
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant20
+ xpos -16435
+ ypos -12717
+}
+NoOp {
+ name NoOp10
+ xpos -20931
+ ypos -16912
+ hide_input true
+}
+NoOp {
+ name NoOp18
+ xpos -16967
+ ypos -16912
+ hide_input true
+}
+push $N7acde50
+Grade {
+ name Grade149
+ xpos -21792
+ ypos -11639
+}
+NoOp {
+ name NoOp20
+ xpos -16751
+ ypos -18106
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant1
+ xpos -23042
+ ypos -18518
+}
+NoOp {
+ name NoOp19
+ xpos -16713
+ ypos -12772
+ hide_input true
+}
+NoOp {
+ name NoOp21
+ xpos -21782
+ ypos -15401
+ hide_input true
+}
+Grade {
+ inputs 0
+ name Grade2
+ xpos -23455
+ ypos -17890
+}
+push $N8ddca70
+NoOp {
+ name NoOp4
+ xpos -23118
+ ypos -17093
+ hide_input true
+}
+Constant {
+ inputs 0
+ channels rgb
+ name Constant31
+ xpos -16823
+ ypos -11853
+}
+NoOp {
+ name NoOp9
+ xpos -22859
+ ypos -14102
+ hide_input true
+}
+Grade {
+ inputs 0
+ name Grade3
+ xpos -19467
+ ypos -17632
+}
+set Cb4d8030 [stack 0]
+clone $Cb4d8030 {
+ inputs 0
+ xpos -21734
+ ypos -14118
+ selected false
+}
+Grade {
+ inputs 0
+ name Grade4
+ xpos -19351
+ ypos -15070
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect50
+ xpos -19389
+ ypos -15672
+}
+clone $C8b25b30 {
+ inputs 0
+ xpos -22610
+ ypos -16233
+ selected false
+}
+clone $C8d1de90 {
+ inputs 0
+ xpos -22695
+ ypos -16258
+ selected false
+}
+clone $C8b8a4b0 {
+ inputs 0
+ xpos -22697
+ ypos -16451
+ selected false
+}
+clone $C8ba3710 {
+ xpos -22697
+ ypos -16425
+ selected false
+}
+clone $C8b3ed90 {
+ inputs 0
+ xpos -22544
+ ypos -16655
+ selected false
+}
+Grade {
+ inputs 0
+ name Grade5
+ xpos -19228
+ ypos -12635
+}
+ColorCorrect {
+ inputs 0
+ name ColorCorrect32
+ xpos -17705
+ ypos -13926
+}
+ColorCorrect {
+ name ColorCorrect33
+ xpos -17736
+ ypos -13863
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade6
+ xpos -17685
+ ypos -14906
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade7
+ xpos -18225
+ ypos -13886
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade8
+ xpos -18788
+ ypos -13440
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade9
+ xpos -17468
+ ypos -12994
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade10
+ xpos -18419
+ ypos -12567
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade11
+ xpos -19894
+ ypos -13983
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade12
+ xpos -18089
+ ypos -15517
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade13
+ xpos -17876
+ ypos -18602
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade14
+ xpos -17157
+ ypos -16099
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade15
+ xpos -20030
+ ypos -12528
+}
+Grade {
+ inputs 0
+ multiply {{parent.ColorCorrect33.midtones.gain}}
+ name Grade16
+ xpos -18322
+ ypos -11732
+}
