@@ -219,7 +219,7 @@ class PrepareDagWorker(QtCore.QRunnable):
 		dagWindow.hide()
 		dagWindow.setWindowFlags(dagWindow.windowFlags() | QtCore.Qt.X11BypassWindowManagerHint)
 		dagWindow.resize(imageSize.width(),imageSize.height())
-		dagWindow.move(200,200)
+		dagWindow.move(512,256)
 		self.dagWrapper.dag.resize(imageSize.width(),imageSize.height())
 		nuke.zoom (self.zoom, (imageCenter.x(),imageCenter.y()))
 		time.sleep(self.delay)
