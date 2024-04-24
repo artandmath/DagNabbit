@@ -14,8 +14,8 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo Short/Midterm
-- Add node class highlighting.
-- Option to fit image to selected node(s) dependencies.
+- Add node class highlighting. (This could be done currently by feeding a selection to the dictionary key "selectedNodes")
+- Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
 - Output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after nuke launch.
