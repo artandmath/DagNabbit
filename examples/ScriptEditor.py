@@ -60,7 +60,7 @@ captureList = [
         "zoom": 1.0,
         "windowDelay": 1.0,
         "captureDelay": 1.0
-    },
+    }
 ]
 
 DagNabbit.launch(captureList)
