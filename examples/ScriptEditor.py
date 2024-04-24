@@ -1,3 +1,9 @@
+# To test DagNabbit:
+# Install the DagNabbit workspace
+# Install DagNabbit.py
+# Open testScript.nk in Nuke GUI
+# Run the following code in the Script Editor
+
 import DagNabbit
 
 captureList = [
