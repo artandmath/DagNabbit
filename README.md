@@ -13,6 +13,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo short/mid term
+- Clean up some duplication in the classes
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes")
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
@@ -28,8 +29,6 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step04.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step05.png)
 
 ## Testing
 - successfully tested under "worst case conditions":
