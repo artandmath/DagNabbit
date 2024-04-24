@@ -13,17 +13,18 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo short/mid term
-- Clean up some duplication in the classes
-- Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes")
+- Validate on production quality hardware with a very large DAG.
+- Clean up some duplication in the classes.
+- Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes").
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
 - Settle on a schema and output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after script launch that might get in the way of manipulating the DAG window.
 
 ## Todo long term
-- refactor to be DCC independant and move functionality into a plugin
-- link functionality to the Nuke profiler
-- drill down into groups
+- refactor to be DCC independant and move functionality into a plugin.
+- link functionality to the Nuke profiler.
+- drill down into groups.
 
 ## Walkthrough, example files
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
