@@ -35,7 +35,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ## Testing
 - successfully tested under "worst case conditions":
   - Nuke 13.2v9
-  - Virtual Machine 6 GB ram, 4 cpu i5, 256 MB vram
+  - Virtual Machine, 4x i5 cpus, 6 GB ram, 256 MB vram
   - Ubuntu 22.04, KDE Plasma: 5.24.7, KDE Frameworks: 5.92.0, Qt: 5.51.3, Linux kernel: 6.5.0-28-generic (64-bit)
   - preliminary testing with Ubuntu 22.04, Gnome looks like it might work.
 - failed tests:
