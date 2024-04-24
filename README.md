@@ -25,6 +25,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ## Todo long term
 - refactor to be DCC independant and move functionality into a plugin.
 - link functionality to the Nuke profiler.
+- heatmaps
 - drill down into groups.
 
 ## Walkthrough, example files
