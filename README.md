@@ -5,7 +5,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## Usage
 - a basic framework to use within a nuke farm render pipeline.
-- the DagNabbit render node(s) will need to launch the GUI and consume a nuke license.
+- the render node(s) on the farm that use DagNabbit will need to launch the GUI and consume a nuke license.
 - copy the DagNabbit workspace onto DagNabbit capabaly render node(s).
 - implement a render task that modifies onScriptLoad and runs DagNabbit. 
 
@@ -29,6 +29,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - failed tests:
   - Centos7 Gnome & KDE (no upgrades from the v2009 distro)
   - Ubuntu 22.04 Xfce
+  - PNGs larger than 8k x 8k, suspect the 256MB VRAM is the issue
 
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
