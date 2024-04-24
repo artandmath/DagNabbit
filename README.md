@@ -25,7 +25,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - link functionality to the Nuke profiler
 - drill down into groups
 
-## Example files walkthrough
+## Walkthrough, example files
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
