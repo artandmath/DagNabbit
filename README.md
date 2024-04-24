@@ -18,7 +18,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
 - Settle on a schema and output an accompanying text file with the PNGs.
-- Deal with or suppress any pop-ups after nuke launch that might get in the way of manipulating the DAG window.
+- Deal with or suppress any pop-ups after script launch that might get in the way of manipulating the DAG window.
 
 ## Todo long term
 - refactor to be DCC independant and move functionality into a plugin
