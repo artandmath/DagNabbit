@@ -3,7 +3,7 @@ Code to capture a render of the Nuke DAG.
 
 For use on render farms to generate a snapshot of the DAG that generated a render.
 
-Target audience: TDs, leads, supervisors for quick visual look at the script that generated a render. Possible uses in machine learning.
+Target audience: TDs, leads, supervisors for quick visual look at the script that generated a render. Possible uses in machine learning script analysis.
 
 Based on code from https://github.com/herronelou/nuke_dag_capture
 
