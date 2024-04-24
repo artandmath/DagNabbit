@@ -9,7 +9,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## Usage
 - the render node(s) on the farm that use DagNabbit will need to launch the GUI and will consume a nuke license.
-- copy the DagNabbit workspace onto DagNabbit capabale render node(s).
+- install the DagNabbit workspace onto DagNabbit capabale render node(s).
 - implement a farm task that modifies onScriptLoad and runs DagNabbit.
 - probably want to do this on a DagNabbit specific copy of the script. 
 
@@ -25,6 +25,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - link functionality to the Nuke profiler
 - drill down into groups
 
+## Example files walkthrough
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
