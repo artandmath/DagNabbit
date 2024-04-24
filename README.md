@@ -7,10 +7,10 @@ Target audience: TDs, leads, supervisors for quick visual look at a render scrip
 Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## Usage
-- the render node(s) on the farm that use DagNabbit will need to launch the GUI and will consume a nuke license.
-- install the DagNabbit workspace and DagNabbit.py onto DagNabbit capabale render node(s).
-- implement a farm task that modifies onScriptLoad and runs DagNabbit, or runs DagNabbit in some other manner on an open Nuke GUI.
-- probably want to do this on a DagNabbit specific copy of the script. 
+- The render node(s) on the farm that use DagNabbit will need to launch the GUI and will consume a nuke license.
+- Install the DagNabbit workspace and DagNabbit.py onto DagNabbit capabale render node(s).
+- Implement a farm task that modifies onScriptLoad and runs DagNabbit, or runs DagNabbit in some other manner on an open Nuke GUI.
+- Probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo short/mid term
 - Clean up some duplication in the classes
