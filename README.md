@@ -17,7 +17,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes")
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
-- Output an accompanying text file with the PNGs.
+- Settle on a schema and output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after nuke launch that might get in the way of manipulating the DAG window.
 
 ## Todo long term
