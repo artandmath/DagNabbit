@@ -1,7 +1,6 @@
 # DagNabbit
-Code to capture a render of the Nuke DAG.
 
-For use on render farms to generate a screenshot of the DAG.
+For use on render farms to generate a screenshot of the Nuke DAG (Node Graph).
 
 Target audience: TDs, leads, supervisors for quick visual look at a render script without having to launch nuke. Possible uses in script analysis with machine learning.
 
