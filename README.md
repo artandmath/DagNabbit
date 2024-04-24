@@ -20,7 +20,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Option to fit image within bounds of a given width/height.
 - Settle on a schema and output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after script launch that might get in the way of manipulating the DAG window.
-- Add some code to analyse the overall color of PNG and re-take the snapshot if the output looks to be blank.
+- Add some code to analyse the overall color of PNG and up the delay time and re-take the snapshot if the output looks to be blank.
 
 ## Todo long term
 - refactor to be DCC independant and move functionality into a plugin.
