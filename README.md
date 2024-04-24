@@ -22,6 +22,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## Todo Longterm
 - refactor to be DCC independant and move functionality into a plugin
+- link functionality to the Nuke profiler
 - drill down into groups
 
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
