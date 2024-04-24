@@ -13,7 +13,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo short/mid term
-- Validate on production quality hardware with a very large DAG.
+- Validate on production quality hardware and a script with a very large DAG.
 - Clean up some duplication in the classes.
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes").
 - Option to fit image to the dependencies of selected node(s).
