@@ -1,13 +1,15 @@
 # DagNabbit
-Code to capture a render of the Nuke DAG
+Code to capture a render of the Nuke DAG.
+For use on render farms to generate a snapshot of the DAG that generated a render.
+Target users: TDs, leads, supervisors and machine learning. 
 
 Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## Usage
-- a basic framework to use within a nuke farm render pipeline.
 - the render node(s) on the farm that use DagNabbit will need to launch the GUI and consume a nuke license.
-- copy the DagNabbit workspace onto DagNabbit capabaly render node(s).
-- implement a render task that modifies onScriptLoad and runs DagNabbit. 
+- copy the DagNabbit workspace onto DagNabbit capabale render node(s).
+- implement a farm task that modifies onScriptLoad and runs DagNabbit.
+- probably want to do this on a DagNabbit specific copy of the script. 
 
 ## Todo
 - Add node class highlighting.
