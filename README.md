@@ -13,14 +13,14 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - implement a farm task that modifies onScriptLoad and runs DagNabbit.
 - probably want to do this on a DagNabbit specific copy of the script. 
 
-## Todo Short/Midterm
+## Todo short/mid term
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes")
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
 - Output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after nuke launch that might get in the way of manipulating the DAG window.
 
-## Todo Longterm
+## Todo long term
 - refactor to be DCC independant and move functionality into a plugin
 - link functionality to the Nuke profiler
 - drill down into groups
@@ -32,7 +32,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step05.png)
 
 ## Testing
-- successfully tested under "worst case conditions":
+- successfully tested under "worst case conditions" :
   - Nuke 13.2v9
   - Virtual Machine 6GB ram, 4CPU i5, 256MB VRAM
   - Ubuntu 22.04, KDE Plasma: 5.24.7, KDE Frameworks: 5.92.0, Qt: 5.51.3, Linux kernel: 6.5.0-28-generic (64-bit)
