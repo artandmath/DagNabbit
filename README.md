@@ -13,16 +13,22 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - implement a farm task that modifies onScriptLoad and runs DagNabbit.
 - probably want to do this on a DagNabbit specific copy of the script. 
 
-## Todo
+## Todo Short/Midterm
 - Add node class highlighting.
 - Option to fit image to selected node(s) dependencies.
 - Option to fit image within bounds of a given width/height.
 - Output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after nuke launch.
 
-## Longterm
+## Todo Longterm
 - refactor to be DCC independant and move functionality into a plugin
 - drill down into groups
+
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step04.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step05.png)
 
 ## Testing
 - successfully tested under "worst case conditions":
@@ -34,9 +40,3 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
   - Centos7 Gnome & KDE (no upgrades from the v2009 distro)
   - Ubuntu 22.04 Xfce
   - PNGs larger than 8k x 8k, suspect the 256MB VRAM is the issue
-
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step04.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step05.png)
