@@ -33,12 +33,12 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step05.png)
 
 ## Testing
-- successfully tested under "worst case conditions" :
+- successfully tested under "worst case conditions":
   - Nuke 13.2v9
-  - Virtual Machine 6GB ram, 4CPU i5, 256MB VRAM
+  - Virtual Machine 6 GB ram, 4 cpu i5, 256 MB vram
   - Ubuntu 22.04, KDE Plasma: 5.24.7, KDE Frameworks: 5.92.0, Qt: 5.51.3, Linux kernel: 6.5.0-28-generic (64-bit)
   - preliminary testing with Ubuntu 22.04, Gnome looks like it might work.
 - failed tests:
   - Centos7 Gnome & KDE (no upgrades from the v2009 distro)
   - Ubuntu 22.04 Xfce
-  - PNGs larger than 8k x 8k, suspect the 256MB VRAM is the issue
+  - PNGs larger than 8k x 8k, suspect the 256 MB vram is the issue
