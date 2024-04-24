@@ -1,7 +1,7 @@
 # DagNabbit
 Code to capture an accurate render of the Nuke DAG
+Based on code from https://github.com/herronelou/nuke_dag_capture
 
-Current "proof of concept" to see if this can be made to work.
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
