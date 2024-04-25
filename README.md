@@ -27,7 +27,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Test Windows & Mac.
 - Clean up some duplication in the classes.
 - Add some code to analyse the overall color of the PNG and up the delay time and re-take the snapshot if the output looks to be blank.
-- Create a hook for arbitary code execution per capture task (for node colouring, enabling/disabling expression lines, overload $gui, etc)
+- Create hooks for arbitary code execution before/after events in the capture pipeline (for node colouring, enabling/disabling expression lines, overload $gui, etc)
 
 ## To do - long term
 - refactor to be DCC independant and move functionality into a plugin.
