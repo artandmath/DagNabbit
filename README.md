@@ -30,10 +30,11 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Create hooks for arbitary code execution before/after events in the capture pipeline (for node colouring, enabling/disabling expression lines, overload $gui, etc)
 
 ## To do - long term
-- refactor to be DCC independant and move functionality into a plugin.
-- link functionality to the Nuke profiler.
-- heatmaps for bounding boxes, CPU time, expressions, callbacks, non-contributing nodes, etc
-- drill down into groups.
+- Link functionality to the Nuke profiler.
+- Heatmaps for bounding boxes, CPU time, expressions, callbacks, non-contributing nodes, contents of groups, etc
+- Termporal Heatmaps, linking the single frame DAG snapshot to data gathered from each frame rendered on the farm.
+- Drll down into groups.
+- Refactor to be DCC independant and move functionality into a plugin.
 
 ## Testing
 - Successfully tested under "worst case conditions":
