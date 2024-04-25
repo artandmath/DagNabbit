@@ -26,7 +26,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Test Nuke 14, 15.
 - Test Windows & Mac.
 - Clean up some duplication in the classes.
-- Add some code to analyse the overall color of the PNG and up the delay time and re-take the snapshot if the output looks to be blank. (Even better, figure out a method to determine when nuke has finished drawing the DAG)
+- Add some code to analyse the overall color of the PNG and up the delay time and re-take the snapshot if the output looks to be blank. (or even better, figure out a method to determine when nuke has finished drawing the DAG)
 - Create hooks for arbitary code execution before/after events in the capture pipeline (for node colouring, enabling/disabling expression lines, overload $gui, etc)
 
 ## To do - long term
