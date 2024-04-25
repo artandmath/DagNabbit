@@ -32,7 +32,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ## To do - long term
 - Link functionality to the Nuke profiler.
 - Heatmaps for bounding boxes, CPU time, expressions, callbacks, non-contributing nodes, contents of groups, etc
-- Termporal Heatmaps, linking the single frame DAG snapshot to data gathered from each frame rendered on the farm.
+- Termporal heatmaps, linking the single frame DAG snapshot to data gathered from each frame rendered on the farm.
 - Drll down into groups.
 - Refactor to be DCC independant and move functionality into a plugin.
 
