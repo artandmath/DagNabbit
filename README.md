@@ -26,7 +26,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Test Nuke 14, 15.
 - Test Windows & Mac.
 - Clean up some duplication in the classes.
-- Add some code to analyse the overall color of PNG and up the delay time and re-take the snapshot if the output looks to be blank.
+- Add some code to analyse the overall color of the PNG and up the delay time and re-take the snapshot if the output looks to be blank.
 - Create a hook for arbitary code execution per capture task (for node colouring, enabling/disabling expression lines, etc)
 
 ## To do - long term
