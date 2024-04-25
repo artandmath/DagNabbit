@@ -6,7 +6,7 @@ Target audience: TDs, leads, supervisors for quick visual look at a render scrip
 
 Based on code from https://github.com/herronelou/nuke_dag_capture
 
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/DagNabbitDemo.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/DagNabbitDemo.gif)
 
 ## Usage
 - The render node(s) on the farm that use DagNabbit will need to launch the Nuke GUI and consume a nuke license.
