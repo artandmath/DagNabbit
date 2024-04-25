@@ -10,8 +10,6 @@ https://github.com/herronelou/nuke_dag_capture
 
 https://community.foundry.com/discuss/topic/160363/pyside2-qt-5-12-threading-inside-nuke-13-2v3-freezing-crashing
 
-https://community.foundry.com/discuss/topic/162434/draw-the-node-graph-to-a-file-or-offscreen-buffer
-
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/DagNabbitDemo.gif)
 
 ## Usage
