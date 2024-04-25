@@ -27,7 +27,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ## To do - long term
 - refactor to be DCC independant and move functionality into a plugin.
 - link functionality to the Nuke profiler.
-- heatmaps
+- heatmaps for bounding boxes, CPU time, expressions, callbacks, etc
 - drill down into groups.
 
 ## Walkthrough - example files
