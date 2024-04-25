@@ -31,11 +31,6 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - heatmaps for bounding boxes, CPU time, expressions, callbacks, non-contributing nodes, etc
 - drill down into groups.
 
-## Walkthrough - example files
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
-
 ## Testing
 - Successfully tested under "worst case conditions":
   - Nuke 13.2v9
@@ -43,6 +38,11 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
   - Ubuntu 22.04, KDE Plasma: 5.24.7, KDE Frameworks: 5.92.0, Qt: 5.51.3, Linux kernel: 6.5.0-28-generic (64-bit)
   - preliminary testing with Ubuntu 22.04, Gnome looks like it might work.
 - Failed tests:
-  - Centos7 Gnome & KDE (no upgrades from the v2009 distro)
+  - Centos7 Gnome & KDE (fresh install with no updates applied from the v2009 distro)
   - Ubuntu 22.04 Xfce
   - PNGs larger than 7.5k x 8.5k, suspect the 256 MB vram might be the issue
+
+## Walkthrough - example files
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png)
