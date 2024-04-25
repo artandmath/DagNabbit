@@ -13,7 +13,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Implement a farm task that modifies onScriptLoad and runs DagNabbit, or runs DagNabbit in some other manner on an open Nuke GUI.
 - Probably want to do this on a DagNabbit specific copy of the script if modifying the script. 
 > [!IMPORTANT]
-> The render node(s) on the farm that use DagNabbit will need to launch the Nuke GUI and consume a nuke license.
+> The render node(s) that use DagNabbit will need to launch the Nuke GUI and will consume a nuke license.
 
 ## To do - short/mid term
 - ~~Add node class highlighting~~ This can be done by feeding a function to the dictionary key "selectedNodes". eg nuke.allNodes('Tracker4').
