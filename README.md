@@ -9,7 +9,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/DagNabbitDemo.gif)
 
 ## Usage
-- Install the DagNabbit workspace and DagNabbit.py onto DagNabbit capabale render node(s).
+- Install the DagNabbit workspace and DagNabbit.py into the pipeline so that DagNabbit capabale render node(s) can do their thing.
 - Implement a farm task that modifies onScriptLoad and runs DagNabbit, or runs DagNabbit in some other manner on an open Nuke GUI.
 - Probably want to do this on a DagNabbit specific copy of the script if modifying the script. 
 > [!IMPORTANT]
