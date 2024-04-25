@@ -6,7 +6,9 @@ Target audience: TDs, leads, supervisors for quick visual look at a render scrip
 
 Based on code from https://github.com/herronelou/nuke_dag_capture
 
-![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png | width=200) ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png | width=200) ![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png | width=200)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step01.png | width=200)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step02.png | width=200)
+![screenshot](https://raw.githubusercontent.com/artandmath/DagNabbit/master/docs/step03.png | width=200)
 
 
 ## Usage
