@@ -13,14 +13,14 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 - Probably want to do this on a DagNabbit specific copy of the script. 
 
 ## To do - short/mid term
-- Validate on production quality hardware and a script with a very large DAG.
-- Test Nuke 14, 15. Test Windows & Mac
-- Clean up some duplication in the classes.
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes").
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
 - Settle on a schema and output an accompanying text file with the PNGs.
 - Deal with or suppress any pop-ups after script launch that might get in the way of manipulating the DAG window.
+- Validate on production quality hardware and a script with a very large DAG.
+- Test Nuke 14, 15. Test Windows & Mac
+- Clean up some duplication in the classes.
 - Add some code to analyse the overall color of PNG and up the delay time and re-take the snapshot if the output looks to be blank.
 - Create a hook for arbitary code execution per capture task (for node colouring, enabling/disabling expression lines, etc)
 
