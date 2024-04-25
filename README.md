@@ -14,6 +14,7 @@ Based on code from https://github.com/herronelou/nuke_dag_capture
 
 ## To do - short/mid term
 - Validate on production quality hardware and a script with a very large DAG.
+- Test Nuke 14, 15. Test Windows & Mac
 - Clean up some duplication in the classes.
 - Add node class highlighting. (This can be done currently by feeding a selection to the dictionary key "selectedNodes").
 - Option to fit image to the dependencies of selected node(s).
