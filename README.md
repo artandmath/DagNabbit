@@ -20,7 +20,7 @@ https://community.foundry.com/discuss/topic/160363/pyside2-qt-5-12-threading-ins
 > The render node(s) that use DagNabbit will need to launch the Nuke GUI and will consume a nuke license.
 
 ## To do - short/mid term
-- Investigate viability of Nuke's --tg command line switch "Terminal Mode. This also starts a QApplication so that PySide/PyQt can be used." https://learn.foundry.com/nuke/content/comp_environment/configuring_nuke/command_line_operations.html
+- Investigate Nuke's --tg command line switch and see if it's possible to invoke the DAG from there. https://learn.foundry.com/nuke/content/comp_environment/configuring_nuke/command_line_operations.html
 - ~~Add node class highlighting~~ This can be done by feeding a function to the dictionary key "selectedNodes". eg nuke.allNodes('Tracker4').
 - Option to fit image to the dependencies of selected node(s).
 - Option to fit image within bounds of a given width/height.
